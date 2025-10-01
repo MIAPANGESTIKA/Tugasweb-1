@@ -1,0 +1,6 @@
+variabel array
+
+<?php
+$biodata = array("nama: mia","jurusan: TI","fakultas: ftik");
+
+echo json_encode($biodata);
