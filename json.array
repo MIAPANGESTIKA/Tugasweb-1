@@ -1,0 +1,9 @@
+<?php
+$jsonobj = '{"nama":"mia","jurusan":"ti","fakultas":"ftik"}';
+$arr = json_decode($jsonobj, true);
+
+#mengakses nilai array
+echo $arr['nama'];
+echo $arr['jurusan'];
+echo $arr['fakultas'];
+?>
